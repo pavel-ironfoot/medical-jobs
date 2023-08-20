@@ -23,6 +23,12 @@ export const Aside = () => {
     const [salaryRange, setSalaryRange] = useState<string>('');
     const [value1, setValue1] = useState<number[]>(DEFAULT_VALUE1);
 
+    useEffect(() => {
+        if (salaryRange !== '' && salaryRange !== 'other') {
+            setValue1([+salaryRange.split(',')[0], +salaryRange.split(',')[1]]);
+        }
+    }, [salaryRange]);
+
     const changeShowCards = () => {
         const newCardsShow = filterCards(katalogSearchCards, salaryRange, value1, checkboxType);
         const newCardsForSearch = filterCards(cards, salaryRange, value1, checkboxType);
