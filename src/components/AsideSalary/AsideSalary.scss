@@ -1,0 +1,20 @@
+.aside-salary__footer {
+    color: rgba(0, 0, 0, 0.60);
+    font-weight: '400';
+    font-size: '20px';
+    font-family: 'Source Sans Pro';
+    position: relative;
+
+    .aside-salary__footer__span {
+        position: absolute;
+    }
+}
+
+.aside-type__salary {
+    display: flex;
+    margin-bottom: 20px;
+
+    div {
+        width: 50%;
+    }
+}
