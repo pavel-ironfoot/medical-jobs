@@ -2,10 +2,11 @@ import { useTranslation } from 'react-i18next';
 import cityImg from '../../images/Map_Pin.png'
 import { OneCardProps } from '../../commons/types-and-interfaces';
 import { MAX_CHARACTERS } from '../../commons/consts';
+import { NavLink } from 'react-router-dom';
 
 import './OneCard.scss';
 
-export const OneCard: React.FC<OneCardProps> = ({ timeLeft, company, title, text, image, city }) => {
+export const OneCard: React.FC<OneCardProps> = ({id, timeLeft, company, title, text, image, city }) => {
     const { t, i18n } = useTranslation();
     const shortenedText = text.length > MAX_CHARACTERS ? `${text.slice(0, MAX_CHARACTERS)}...` : text;
 
@@ -35,7 +36,9 @@ export const OneCard: React.FC<OneCardProps> = ({ timeLeft, company, title, text
             <footer className='one-card__footer'>
                 <p>{shortenedText}</p>
                 <div>
-                    <button className='one-card__footer__custom-button'>{t("more")}</button>
+                    <NavLink to={`/oneoffer/${id}`}>
+                        <button className='one-card__footer__custom-button'>{t("more")}</button>
+                    </NavLink>
                 </div>
             </footer>
         </div>

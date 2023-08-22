@@ -19,7 +19,9 @@ export const Header = () => {
             <div className="header__nav">
                 <div className="header__nav__logo">
                     <div className="header__nav__title">
-                        <h1>Job Search</h1>
+                        <NavLink to={`/`}>
+                            <h1>Job Search</h1>
+                        </NavLink>
                     </div>
                     <div>
                         <LanguageChange />

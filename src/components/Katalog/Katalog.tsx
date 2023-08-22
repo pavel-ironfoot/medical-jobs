@@ -24,6 +24,7 @@ export const Katalog = () => {
   const endIndex = startIndex + itemsPerPage;
   const showCards = cards.slice(startIndex, endIndex).map((elem) => (
     <OneCard
+      id={elem.id}
       key={elem.id}
       timeLeft={elem.timeLeft}
       title={elem.title}

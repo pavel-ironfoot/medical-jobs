@@ -11,6 +11,7 @@ export interface AsideTypeProps {
 }
 
 export interface OneCardProps {
+    id:number;
     company: string;
     title: string;
     image: string;

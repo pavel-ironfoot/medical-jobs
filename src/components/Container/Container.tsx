@@ -5,6 +5,7 @@ import { Main } from "../Main";
 import { FuturePage } from "../FuturePage";
 
 import './Container.scss';
+import { OneOfferPage } from "../OneOfferPage";
 
 export const Container = () => {
     return (
@@ -17,6 +18,7 @@ export const Container = () => {
                     <Route path='/companies' element={<FuturePage />} />
                     <Route path='/employers' element={<FuturePage />} />
                     <Route path='/help' element={<FuturePage />} />
+                    <Route path='/oneoffer/:id' element={<OneOfferPage />} />
                 </Routes>
                 <Footer />
             </div>
