@@ -1,0 +1,86 @@
+.offer-form{
+    >h1{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    label{
+        font-size: 18px;
+        font-weight: 600;
+        input{
+            border: 1px solid #E0E4E8;
+            border-radius: 8px;
+            font-size:20px;
+            padding: 14px;
+            font-weight: 300;
+            margin-left: 10px;
+        }
+    }
+    .offer-form__first-name__errors{
+        min-height: 40px;
+    }
+    button{
+        padding: 5px;
+        font-size: 20px;
+        border-radius: 4px;
+    }
+    .offer-form__first-name__errors{
+        p{
+            color: red;
+            font-weight: 300;
+            font-size: 14px;
+        }
+    }
+    input:focus{
+        background-color: rgba(194, 228, 228, 0.336);
+    }
+    .one-offer__custom-button-disabled{
+        border-radius: 10px;
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: 600;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    .one-offer__custom-button {
+        position: relative;
+        z-index: 1;
+        margin-top: 5px;
+        background: none;
+        border: 3px solid #1CBBFF;
+        border-radius: 10px;
+        padding: 10px 20px;
+        font-size: 18px;
+        color: #1CBBFF;
+        min-width: 100px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: color 0.4s linear;
+        text-transform: uppercase;
+        &:hover {
+            z-index: 1;
+            color: #2196f3;
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 101%;
+            height: 100%;
+            border-radius: 8px;
+            background: rgba(0, 0, 0, 0.60);
+            z-index: -1;
+            transition: transform 0.8s;
+            transform-origin: 0 0;
+            transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+            transform: scaleY(0);
+        }
+
+        &:hover::before {
+            transform: scaleY(1);
+        }
+    }
+}

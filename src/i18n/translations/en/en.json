@@ -32,5 +32,14 @@
     "allrights":"© 2023 Job Search.com.ua All rights reserved",
     "politics":"Privacy policy",
     "social":"Social responsibility",
-    "informationone":"please wait"
+    "informationone":"please wait",
+    "firstName":"First Name:",
+    "name":"name...",
+    "secondName":"Second Name:",
+    "surname":"surname...",
+    "email":"Email:",
+    "number":"Phone Number:",
+    "typeHere":"type here...",
+    "formToFill":"Form to fill",
+    "send":"send"
 }

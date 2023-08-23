@@ -1,6 +1,86 @@
-.one-offer-page{
+.one-offer-page {
     padding: 20px 140px;
+
+    .one-offer-page__header {
+        display: flex;
+        margin-bottom: 40px;
+
+        div {
+            width: 50%;
+
+            img {
+                width: 80%;
+            }
+        }
+    }
+
+    .one-offer-page__footer {
+        p {
+            font-size: 18px;
+            font-family: 'Source Sans Pro';
+            font-weight: 400;
+            line-height: 24px;
+            color: rgba(0, 0, 0, 0.6);
+        }
+    }
+
+    .one-offer-page__main {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #CCEBFD;
+        padding: 20px;
+        margin-bottom: 40px;
+        border: 4px solid #CCEBFD;
+
+        h1 {
+            font-size: 24px;
+            font-family: 'Source Sans Pro';
+            font-weight: 600;
+            line-height: 24px;
+            color: rgb(0, 0, 0);
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 20px;
+            font-family: 'Source Sans Pro';
+            font-weight: 400;
+            line-height: 24px;
+            color: rgba(0, 0, 0, 0.600);
+        }
+
+        p {
+            text-align: right;
+            font-size: 18px;
+            font-family: 'Source Sans Pro';
+            font-weight: 400;
+            line-height: 24px;
+            color: rgba(0, 0, 0, 0.600);
+        }
+    }
+
+    @media (max-width: 700px) {
+        .one-offer-page__header {
+            flex-direction: column;
+
+            div {
+                width: 90%;
+            }
+        }
+
+        .one-offer-page__main {
+            flex-direction: column;
+
+            p {
+                text-align: left;
+            }
+        }
+    }
+    .one-offer-page__no-information{
+        min-height: 500px;
+    }
 }
+
 @media (max-width: 980px) {
     .one-offer-page {
         padding: 20px 80px;
