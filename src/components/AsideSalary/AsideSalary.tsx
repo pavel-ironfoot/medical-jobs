@@ -2,7 +2,7 @@ import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
 import Slider from '@mui/material/Slider';
 import { Box, FormControlLabel } from '@mui/material';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import arrowShow from './../../images/Caret_Down.png';
 import arrowHide from './../../images/Caret_Down_MD.png'
 import { useTranslation } from 'react-i18next';
@@ -29,6 +29,9 @@ export const AsideSalary: React.FC<AsideSalaryProps> = ({ value1, setValue1, set
             setValue1([Math.min(newValue[0], value1[1] - MIN_DISTANCE), value1[1]]);
         } else {
             setValue1([value1[0], Math.max(newValue[1], value1[0] + MIN_DISTANCE)]);
+        }
+        if (salaryRange !== "other") {
+            setSalaryRange("other");
         }
     };
 
