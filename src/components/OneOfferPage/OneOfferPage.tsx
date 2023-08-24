@@ -12,6 +12,10 @@ export const OneOfferPage = () => {
     const { t, i18n } = useTranslation();
 
     useEffect(() => {
+        window.scrollTo(0, 232);
+    }, []);
+    
+    useEffect(() => {
         const currenOffer: any | boolean = id ? allData[+id] : false;
         setOneOffer(currenOffer);
     }, [id]);
