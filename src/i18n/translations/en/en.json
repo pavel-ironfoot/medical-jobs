@@ -41,10 +41,12 @@
     "number":"Phone Number:",
     "typeHere":"type here...",
     "formToFill":"Form to fill",
-    "send":"send",
+    "send":"send data",
     "needToFill":"need to fill",
     "needMoreSymbols":"need more symbols",
     "lessSymbols":"less symbols",
     "errorEmail":"invalid email address",
-    "errorNumber":"invalid phone number"
+    "errorNumber":"invalid phone number",
+    "fieldsAll":"all fields must be filled",
+    "successfully":"Your data was sent successfully"
 }

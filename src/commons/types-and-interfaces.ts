@@ -19,3 +19,8 @@ export interface OneCardProps {
     city: string;
     timeLeft: string;
 }
+
+export interface ModalTypes {
+    active: boolean;
+    setActive: (value: boolean) => void;
+}

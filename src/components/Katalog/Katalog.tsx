@@ -37,7 +37,6 @@ export const Katalog = () => {
 
   const handleShowMore = () => {
     setItemsPerPage(prev => prev + 5);
-    console.log(itemsPerPage)
   }
 
   const handleChangePage = (event: any, value: any) => {

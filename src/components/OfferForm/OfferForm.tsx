@@ -1,5 +1,8 @@
 import { useForm, SubmitHandler } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
+import { ModalOffer } from '../ModalOffer';
+import { useState } from 'react';
+
 import './OfferForm.scss';
 
 type FormData = {
@@ -10,6 +13,7 @@ type FormData = {
 };
 
 export const OfferForm = () => {
+    const [active, setActive] = useState<boolean>(false);
     const { t, i18n } = useTranslation();
 
     const {
@@ -23,12 +27,14 @@ export const OfferForm = () => {
 
     const onSubmit: SubmitHandler<FormData> = (data) => {
         console.log(JSON.stringify(data));
+        setActive(true);
         reset();
     };
 
     return (
         <div className='offer-form'>
             <h1>{t("formToFill")}</h1>
+            <p className='offer-form__all-fields'>*{t("fieldsAll")}</p>
             <form onSubmit={handleSubmit(onSubmit)}>
                 <label htmlFor='firstName'>
                     <h4>
@@ -126,6 +132,7 @@ export const OfferForm = () => {
                     <i></i>
                 </button>
             </form>
+            <ModalOffer active={active} setActive={setActive}/>
         </div>
     );
 }

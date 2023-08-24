@@ -42,7 +42,7 @@ export const OneOfferPage = () => {
                     </div>
                 </main>
                 <footer className="one-offer-page__footer">
-                    <p>{oneOffer.text}</p>
+                    <p className="one-offer-page__footer-text">{oneOffer.text}</p>
                     <OfferForm />
                 </footer>
             </> : <div className='one-offer-page__no-information'>
