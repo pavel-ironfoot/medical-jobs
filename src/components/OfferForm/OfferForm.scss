@@ -1,86 +1,130 @@
-.offer-form{
-    >h1{
+.offer-form {
+    >h1 {
         margin-top: 20px;
         margin-bottom: 20px;
         font-size: 40px;
         font-weight: 600;
     }
-    label{
-        font-size: 18px;
-        font-weight: 600;
-        input{
+
+    label {
+        h4 {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        input {
+            width: 410px;
             border: 1px solid #E0E4E8;
             border-radius: 8px;
-            font-size:20px;
+            font-size: 20px;
             padding: 14px;
             font-weight: 300;
-            margin-left: 10px;
         }
     }
-    .offer-form__first-name__errors{
-        min-height: 40px;
+
+    .offer-form__first-name__errors {
+        height: 50px;
+
+        p {
+            height: 40px;
+        }
     }
-    button{
+
+    button {
         padding: 5px;
         font-size: 20px;
         border-radius: 4px;
     }
-    .offer-form__first-name__errors{
-        p{
-            color: red;
-            font-weight: 300;
-            font-size: 14px;
+
+    .offer-form__first-name__errors {
+        p {
+            color: red !important;
+            font-weight: 300 !important;
+            font-size: 18px !important;
         }
     }
-    input:focus{
+
+    input:focus {
         background-color: rgba(194, 228, 228, 0.336);
     }
-    .one-offer__custom-button-disabled{
-        border-radius: 10px;
-        padding: 10px 20px;
+
+    .one-offer__custom-button-disabled {
+        padding: 10px 30px;
         font-size: 18px;
         font-weight: 600;
         cursor: pointer;
         text-transform: uppercase;
     }
-    .one-offer__custom-button {
+
+    .offer-form__submit-button {
+        border: none;
+        display: block;
         position: relative;
-        z-index: 1;
-        margin-top: 5px;
-        background: none;
-        border: 3px solid #1CBBFF;
-        border-radius: 10px;
-        padding: 10px 20px;
-        font-size: 18px;
-        color: #1CBBFF;
-        min-width: 100px;
-        font-weight: 600;
-        cursor: pointer;
-        transition: color 0.4s linear;
+        color: #c1daee;
+        background-color: #1CBBFF;
         text-transform: uppercase;
-        &:hover {
-            z-index: 1;
-            color: #2196f3;
-        }
+        padding: 10px 30px;
+        font-size: 18px;
+        font-weight: 600;
+        transition: 0.1s;
+        letter-spacing: 0.1px;
 
         &::before {
             content: '';
             position: absolute;
-            left: 0;
-            top: 0;
-            width: 101%;
-            height: 100%;
-            border-radius: 8px;
-            background: rgba(0, 0, 0, 0.60);
-            z-index: -1;
-            transition: transform 0.8s;
-            transform-origin: 0 0;
-            transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
-            transform: scaleY(0);
+            inset: 3px;
+            background-color: rgb(66, 66, 66);
         }
 
-        &:hover::before {
-            transform: scaleY(1);
+        & span {
+            position: relative;
+            z-index: 1;
+        }
+
+        & i {
+            position: absolute;
+            inset: 0;
+            display: block;
+        }
+
+        & i::before {
+            position: absolute;
+            content: '';
+            top: 0;
+            left: 80%;
+            height: 3px;
+            width: 20px;
+            background-color: rgb(66, 66, 66);
+            transform: translateX(-50%) skewX(300deg);
+            transition: 0.5s;
+        }
+
+        &:hover {
+            cursor: pointer;
+            letter-spacing: 0.8px;
+            box-shadow: 0 0 10px black, 0 0 30px black;
+        }
+
+        &:hover i::before {
+            width: 40px;
+            left: 20%;
+        }
+
+        & i::after {
+            position: absolute;
+            content: '';
+            bottom: 0;
+            left: 20%;
+            height: 3px;
+            width: 20px;
+            background-color: rgb(66, 66, 66);
+            transform: translateX(-50%) skewX(300deg);
+            transition: 0.5s;
+        }
+
+        &:hover i::after {
+            width: 40px;
+            left: 80%;
         }
     }
 }

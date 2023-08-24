@@ -38,10 +38,14 @@ export const OfferForm = () => {
                         placeholder={t("name")}
                         type='text'
                         {...register('firstName', {
-                            required: 'need to fill',
+                            required: t("needToFill"),
                             minLength: {
-                                value: 5,
-                                message: 'need more symbols',
+                                value: 2,
+                                message: t("needMoreSymbols"),
+                            },
+                            maxLength: {
+                                value: 32,
+                                message: t("lessSymbols"),
                             },
                         })}
                     />
@@ -58,14 +62,14 @@ export const OfferForm = () => {
                         placeholder={t("surname")}
                         type='text'
                         {...register('lastName', {
-                            required: 'need to fill',
+                            required: t("needToFill"),
                             minLength: {
-                                value: 5,
-                                message: 'need more symbols',
+                                value: 2,
+                                message: t("needMoreSymbols"),
                             },
                             maxLength: {
                                 value: 32,
-                                message: 'less symbols',
+                                message: t("lessSymbols"),
                             },
                         })}
                     />
@@ -82,10 +86,10 @@ export const OfferForm = () => {
                         placeholder={t("typeHere")}
                         type='email'
                         {...register('email', {
-                            required: 'need to fill',
+                            required: t("needToFill"),
                             pattern: {
                                 value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-                                message: 'invalid email address',
+                                message: t("errorEmail"),
                             },
                         })}
                     />
@@ -102,10 +106,10 @@ export const OfferForm = () => {
                         placeholder={t("typeHere")}
                         type='tel'
                         {...register('phoneNumber', {
-                            required: 'need to fill',
+                            required: t("needToFill"),
                             pattern: {
                                 value: /^(?:\+380|0)\d{9}$/,
-                                message: 'invalid phone number',
+                                message: t("errorNumber"),
                             },
                         })}
                     />
@@ -115,7 +119,12 @@ export const OfferForm = () => {
                     {errors?.phoneNumber?.message && <p>{errors?.phoneNumber?.message}</p>}
                 </div>
 
-                <button className={isValid ? 'one-offer__custom-button' : 'one-offer__custom-button-disabled'} disabled={!isValid} type='submit'>{t("send")}</button>
+                <button className={isValid ? 'offer-form__submit-button' : 'one-offer__custom-button-disabled'} disabled={!isValid} type='submit'>
+                    <span>
+                        {t("send")}
+                    </span>
+                    <i></i>
+                </button>
             </form>
         </div>
     );

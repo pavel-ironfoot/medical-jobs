@@ -3,9 +3,8 @@ import { useEffect, useState } from 'react';
 import { allData } from '../../commons/data';
 import { useTranslation } from 'react-i18next';
 import offerImage from '../../images/one-offer.png';
-
-import './OneOfferPage.scss';
 import { OfferForm } from '../OfferForm';
+import './OneOfferPage.scss';
 
 export const OneOfferPage = () => {
     const { id } = useParams<{ id: string }>();
