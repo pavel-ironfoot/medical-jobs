@@ -1,8 +1,7 @@
-import Radio from '@mui/material/Radio';
 import RadioGroup from '@mui/material/RadioGroup';
 import Slider from '@mui/material/Slider';
-import { Box, FormControlLabel } from '@mui/material';
-import { useEffect, useState } from 'react';
+import { Box } from '@mui/material';
+import { useState } from 'react';
 import arrowShow from './../../images/Caret_Down.png';
 import arrowHide from './../../images/Caret_Down_MD.png'
 import { useTranslation } from 'react-i18next';
@@ -11,6 +10,7 @@ import { valuetext } from '../../commons/helpfull-functions';
 import { MAX_VALUE, MIN_DISTANCE, MIN_VALUE } from '../../commons/consts';
 
 import './AsideSalary.scss';
+import { AsideSeleryRadio } from './AsideSeleryRadio';
 
 export const AsideSalary: React.FC<AsideSalaryProps> = ({ value1, setValue1, setSalaryRange, salaryRange }) => {
     const [salary, setSalary] = useState<boolean>(true);
@@ -61,76 +61,12 @@ export const AsideSalary: React.FC<AsideSalaryProps> = ({ value1, setValue1, set
                 >
                     <div className='aside-type__salary'>
                         <div>
-                            <FormControlLabel value="0,10000" control={<Radio
-                                onChange={handleSalaryChange}
-                                checked={salaryRange === "0,10000"}
-                                sx={{
-                                    color: '#1CBBFF',
-                                    '&.Mui-checked': {
-                                        color: '#1CBBFF',
-                                    },
-                                }}
-                            />} label={t("less") + " 10 000"}
-                                sx={{
-                                    color: 'rgba(0, 0, 0, 0.60)',
-                                    fontWeight: '400',
-                                    fontSize: '20px',
-                                    fontFamily: 'Source Sans Pro'
-                                }}
-                            />
-                            <FormControlLabel value="10000,15000" control={<Radio
-                                onChange={handleSalaryChange}
-                                checked={salaryRange === "10000,15000"}
-                                sx={{
-                                    color: '#1CBBFF',
-                                    '&.Mui-checked': {
-                                        color: '#1CBBFF',
-                                    },
-                                }}
-                            />} label={"10 000 " + t("to") + " 15 000"}
-                                sx={{
-                                    color: 'rgba(0, 0, 0, 0.60)',
-                                    fontWeight: '400',
-                                    fontSize: '20px',
-                                    fontFamily: 'Source Sans Pro'
-                                }}
-                            />
+                            <AsideSeleryRadio labelValue={t("less") + " 10 000"} salaryRangeValue={"0,10000"} salaryRange={salaryRange} handleSalaryChange={handleSalaryChange} />
+                            <AsideSeleryRadio labelValue={"10 000 " + t("to") + " 15 000"} salaryRangeValue={"10000,15000"} salaryRange={salaryRange} handleSalaryChange={handleSalaryChange} />
                         </div>
                         <div>
-                            <FormControlLabel value="15000,25000" control={<Radio
-                                onChange={handleSalaryChange}
-                                checked={salaryRange === "15000,25000"}
-                                sx={{
-                                    color: '#1CBBFF',
-                                    '&.Mui-checked': {
-                                        color: '#1CBBFF',
-                                    },
-                                }}
-                            />} label={"15 000  " + t("to") + " 25 000"}
-                                sx={{
-                                    color: 'rgba(0, 0, 0, 0.60)',
-                                    fontWeight: '400',
-                                    fontSize: '20px',
-                                    fontFamily: 'Source Sans Pro'
-                                }}
-                            />
-                            <FormControlLabel value="other" control={<Radio
-                                onChange={handleSalaryChange}
-                                checked={salaryRange === "other"}
-                                sx={{
-                                    color: '#1CBBFF',
-                                    '&.Mui-checked': {
-                                        color: '#1CBBFF',
-                                    },
-                                }}
-                            />} label={t("other")}
-                                sx={{
-                                    color: 'rgba(0, 0, 0, 0.60)',
-                                    fontWeight: '400',
-                                    fontSize: '20px',
-                                    fontFamily: 'Source Sans Pro'
-                                }}
-                            />
+                            <AsideSeleryRadio labelValue={"15 000  " + t("to") + " 25 000"} salaryRangeValue={"15000,25000"} salaryRange={salaryRange} handleSalaryChange={handleSalaryChange} />
+                            <AsideSeleryRadio labelValue={t("other")} salaryRangeValue={"other"} salaryRange={salaryRange} handleSalaryChange={handleSalaryChange} />
                         </div>
                     </div>
                 </RadioGroup>
