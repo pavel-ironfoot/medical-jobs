@@ -1,16 +1,14 @@
 import RadioGroup from '@mui/material/RadioGroup';
-import Slider from '@mui/material/Slider';
-import { Box } from '@mui/material';
 import { useState } from 'react';
 import arrowShow from './../../images/Caret_Down.png';
 import arrowHide from './../../images/Caret_Down_MD.png'
 import { useTranslation } from 'react-i18next';
 import { AsideSalaryProps } from '../../commons/types-and-interfaces';
-import { valuetext } from '../../commons/helpfull-functions';
-import { MAX_VALUE, MIN_DISTANCE, MIN_VALUE } from '../../commons/consts';
+import { MIN_DISTANCE } from '../../commons/consts';
 
 import './AsideSalary.scss';
 import { AsideSeleryRadio } from './AsideSeleryRadio';
+import { AsideSalarySlider } from './AsideSalarySlider';
 
 export const AsideSalary: React.FC<AsideSalaryProps> = ({ value1, setValue1, setSalaryRange, salaryRange }) => {
     const [salary, setSalary] = useState<boolean>(true);
@@ -70,36 +68,7 @@ export const AsideSalary: React.FC<AsideSalaryProps> = ({ value1, setValue1, set
                         </div>
                     </div>
                 </RadioGroup>
-                <Box sx={{ width: 300 }}>
-                    <Slider
-                        getAriaLabel={() => 'Salary range'}
-                        value={value1}
-                        onChange={handleChange1}
-                        min={MIN_VALUE}
-                        max={MAX_VALUE}
-                        step={1000}
-                        valueLabelDisplay="auto"
-                        valueLabelFormat={valuetext}
-                        getAriaValueText={valuetext}
-                        disableSwap
-                        sx={{
-                            '& .MuiSlider-track': {
-                                backgroundColor: '#1CBBFF',
-                            },
-                            '& .MuiSlider-rail': {
-                                backgroundColor: '#E6EAF2',
-                            },
-
-                            '& .MuiSlider-thumb': {
-                                backgroundColor: 'rgba(255, 0, 0, 0)',
-                                width: '30px',
-                                height: '30px',
-                                borderRadius: '50%',
-                                border: '2px solid #D8F1FF',
-                            },
-                        }}
-                    />
-                </Box>
+                <AsideSalarySlider value1={value1} handleChange1={handleChange1} />
                 <p className='aside-salary__footer'><span style={{ left: value1[0] / 165 + 'px' }} className='aside-salary__footer__span'>{value1[0]}₴</span>  <span style={{ left: value1[1] / 155 + 'px' }} className='aside-salary__footer__span'>{value1[1]}₴</span></p>
             </div>
         </>

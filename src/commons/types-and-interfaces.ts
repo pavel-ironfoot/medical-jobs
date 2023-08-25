@@ -5,6 +5,18 @@ export interface AsideSalaryProps {
     salaryRange: string;
 }
 
+export interface AsideSeleryRadioProps{
+    handleSalaryChange:any;
+    salaryRange: string;
+    salaryRangeValue:string;
+    labelValue:string;
+}
+
+export interface AsideSalarySliderProps {
+    value1:number[];
+    handleChange1:any;
+}
+
 export interface AsideTypeProps {
     checkboxType: string[];
     setCheckboxType: any;

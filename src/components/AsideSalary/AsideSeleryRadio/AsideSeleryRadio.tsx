@@ -1,13 +1,8 @@
 import { FormControlLabel } from '@mui/material';
 import Radio from '@mui/material/Radio';
 import { useTranslation } from 'react-i18next';
+import { AsideSeleryRadioProps } from '../../../commons/types-and-interfaces';
 
-interface AsideSeleryRadioProps{
-    handleSalaryChange:any;
-    salaryRange: string;
-    salaryRangeValue:string;
-    labelValue:string;
-}
 
 export const AsideSeleryRadio:React.FC<AsideSeleryRadioProps> = ({salaryRange,handleSalaryChange,salaryRangeValue, labelValue}) => {
     const { t, i18n } = useTranslation();
