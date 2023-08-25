@@ -8,7 +8,8 @@ export const allData = [
         timeLeft: "4",
         image: "medina",
         salary: 13000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 1,
@@ -19,7 +20,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 17000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 2,
@@ -30,7 +32,8 @@ export const allData = [
         timeLeft: "6",
         image: "vitamedical",
         salary: 28000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 3,
@@ -41,7 +44,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 9000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 4,
@@ -52,7 +56,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 13000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 5,
@@ -63,7 +68,8 @@ export const allData = [
         timeLeft: "15",
         image: "medina",
         salary: 6000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 6,
@@ -74,7 +80,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 5000,
-        type: "Інтернатура",
+        type: "Internship",
+        typeShow: "Інтернатура",
     },
     {
         id: 7,
@@ -85,7 +92,8 @@ export const allData = [
         timeLeft: "2",
         image: "vitamedical",
         salary: 5000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 8,
@@ -96,7 +104,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 12000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 9,
@@ -107,7 +116,8 @@ export const allData = [
         timeLeft: "12",
         image: "onclinic",
         salary: 18000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 10,
@@ -118,7 +128,8 @@ export const allData = [
         timeLeft: "4",
         image: "medina",
         salary: 23000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 11,
@@ -129,7 +140,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 29000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 12,
@@ -140,7 +152,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 28000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 13,
@@ -151,7 +164,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 9000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 14,
@@ -162,7 +176,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 10000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 15,
@@ -173,7 +188,8 @@ export const allData = [
         timeLeft: "15",
         image: "medina",
         salary: 3000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 16,
@@ -184,7 +200,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 2000,
-        type: "Інтернатура",
+        type: "Internship",
+        typeShow: "Інтернатура",
     },
     {
         id: 17,
@@ -195,7 +212,8 @@ export const allData = [
         timeLeft: "2",
         image: "vitamedical",
         salary: 5000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 18,
@@ -206,7 +224,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 12000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 19,
@@ -217,7 +236,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 18000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 20,
@@ -228,7 +248,8 @@ export const allData = [
         timeLeft: "4",
         image: "medina",
         salary: 13000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 21,
@@ -239,7 +260,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 17000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 22,
@@ -250,7 +272,8 @@ export const allData = [
         timeLeft: "6",
         image: "vitamedical",
         salary: 28000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 23,
@@ -261,7 +284,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 9000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 24,
@@ -272,7 +296,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 13000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 25,
@@ -283,7 +308,8 @@ export const allData = [
         timeLeft: "15",
         image: "medina",
         salary: 6000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 26,
@@ -294,7 +320,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 5000,
-        type: "Інтернатура",
+        type: "Internship",
+        typeShow: "Інтернатура",
     },
     {
         id: 27,
@@ -305,7 +332,8 @@ export const allData = [
         timeLeft: "2",
         image: "vitamedical",
         salary: 5000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 28,
@@ -316,7 +344,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 12000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 29,
@@ -327,7 +356,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 18000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 30,
@@ -338,7 +368,8 @@ export const allData = [
         timeLeft: "4",
         image: "medina",
         salary: 23000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 31,
@@ -349,7 +380,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 29000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 32,
@@ -360,7 +392,8 @@ export const allData = [
         timeLeft: "6",
         image: "vitamedical",
         salary: 28000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 33,
@@ -371,7 +404,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 9000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 34,
@@ -382,7 +416,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 10000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 35,
@@ -393,7 +428,8 @@ export const allData = [
         timeLeft: "15",
         image: "medina",
         salary: 3000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 36,
@@ -404,7 +440,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 2000,
-        type: "Інтернатура",
+        type: "Internship",
+        typeShow: "Інтернатура",
     },
     {
         id: 37,
@@ -415,7 +452,8 @@ export const allData = [
         timeLeft: "2",
         image: "vitamedical",
         salary: 5000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 38,
@@ -426,7 +464,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 18000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 39,
@@ -437,7 +476,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 18000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 40,
@@ -448,7 +488,8 @@ export const allData = [
         timeLeft: "4",
         image: "medina",
         salary: 13000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 41,
@@ -459,7 +500,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 17000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 42,
@@ -470,7 +512,8 @@ export const allData = [
         timeLeft: "6",
         image: "vitamedical",
         salary: 28000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 43,
@@ -481,7 +524,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 9000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 44,
@@ -492,7 +536,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 13000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 45,
@@ -503,7 +548,8 @@ export const allData = [
         timeLeft: "15",
         image: "medina",
         salary: 6000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 46,
@@ -514,7 +560,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 5000,
-        type: "Інтернатура",
+        type: "Internship",
+        typeShow: "Інтернатура",
     },
     {
         id: 47,
@@ -525,7 +572,8 @@ export const allData = [
         timeLeft: "2",
         image: "vitamedical",
         salary: 5000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 48,
@@ -536,7 +584,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 12000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 49,
@@ -547,7 +596,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 18000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 50,
@@ -558,7 +608,8 @@ export const allData = [
         timeLeft: "4",
         image: "medina",
         salary: 23000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 51,
@@ -569,7 +620,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 29000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 52,
@@ -580,7 +632,8 @@ export const allData = [
         timeLeft: "6",
         image: "vitamedical",
         salary: 28000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 53,
@@ -591,7 +644,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 9000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 54,
@@ -602,7 +656,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 10000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 55,
@@ -613,7 +668,8 @@ export const allData = [
         timeLeft: "15",
         image: "medina",
         salary: 3000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 56,
@@ -624,7 +680,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 2000,
-        type: "Інтернатура",
+        type: "Internship",
+        typeShow: "Інтернатура",
     },
     {
         id: 57,
@@ -635,7 +692,8 @@ export const allData = [
         timeLeft: "2",
         image: "vitamedical",
         salary: 5000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 58,
@@ -646,7 +704,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 12000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 59,
@@ -657,7 +716,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 18000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 60,
@@ -668,7 +728,8 @@ export const allData = [
         timeLeft: "4",
         image: "medina",
         salary: 13000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 61,
@@ -679,7 +740,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 17000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 62,
@@ -690,7 +752,8 @@ export const allData = [
         timeLeft: "6",
         image: "vitamedical",
         salary: 28000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 63,
@@ -701,7 +764,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 9000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 64,
@@ -712,7 +776,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 13000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 65,
@@ -723,7 +788,8 @@ export const allData = [
         timeLeft: "15",
         image: "medina",
         salary: 6000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 66,
@@ -734,7 +800,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 5000,
-        type: "Інтернатура",
+        type: "Internship",
+        typeShow: "Інтернатура",
     },
     {
         id: 67,
@@ -745,7 +812,8 @@ export const allData = [
         timeLeft: "2",
         image: "vitamedical",
         salary: 5000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 68,
@@ -756,7 +824,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 12000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 69,
@@ -767,7 +836,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 18000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 70,
@@ -778,7 +848,8 @@ export const allData = [
         timeLeft: "4",
         image: "medina",
         salary: 23000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 71,
@@ -789,7 +860,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 29000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 72,
@@ -800,7 +872,8 @@ export const allData = [
         timeLeft: "6",
         image: "vitamedical",
         salary: 28000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 73,
@@ -811,7 +884,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 9000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 74,
@@ -822,7 +896,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 10000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 75,
@@ -833,7 +908,8 @@ export const allData = [
         timeLeft: "15",
         image: "medina",
         salary: 3000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 76,
@@ -844,7 +920,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 2000,
-        type: "Інтернатура",
+        type: "Internship",
+        typeShow: "Інтернатура",
     },
     {
         id: 77,
@@ -855,7 +932,8 @@ export const allData = [
         timeLeft: "2",
         image: "vitamedical",
         salary: 5000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 78,
@@ -866,7 +944,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 12000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 79,
@@ -877,7 +956,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 18000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 80,
@@ -888,7 +968,8 @@ export const allData = [
         timeLeft: "4",
         image: "medina",
         salary: 13000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 81,
@@ -899,7 +980,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 17000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 82,
@@ -910,7 +992,8 @@ export const allData = [
         timeLeft: "6",
         image: "vitamedical",
         salary: 28000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 83,
@@ -921,7 +1004,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 9000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 84,
@@ -932,7 +1016,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 13000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 85,
@@ -943,7 +1028,8 @@ export const allData = [
         timeLeft: "15",
         image: "medina",
         salary: 6000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 86,
@@ -954,7 +1040,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 5000,
-        type: "Інтернатура",
+        type: "Internship",
+        typeShow: "Інтернатура",
     },
     {
         id: 87,
@@ -965,7 +1052,8 @@ export const allData = [
         timeLeft: "2",
         image: "vitamedical",
         salary: 5000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 88,
@@ -976,7 +1064,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 12000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 89,
@@ -987,7 +1076,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 18000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 90,
@@ -998,7 +1088,8 @@ export const allData = [
         timeLeft: "4",
         image: "medina",
         salary: 23000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 91,
@@ -1009,7 +1100,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 29000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 92,
@@ -1020,7 +1112,8 @@ export const allData = [
         timeLeft: "6",
         image: "vitamedical",
         salary: 28000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 93,
@@ -1031,7 +1124,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 9000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 94,
@@ -1042,7 +1136,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 1000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 95,
@@ -1053,7 +1148,8 @@ export const allData = [
         timeLeft: "15",
         image: "medina",
         salary: 3000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 96,
@@ -1064,7 +1160,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 2000,
-        type: "Інтернатура",
+        type: "Internship",
+        typeShow: "Інтернатура",
     },
     {
         id: 97,
@@ -1075,7 +1172,8 @@ export const allData = [
         timeLeft: "2",
         image: "vitamedical",
         salary: 2000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 98,
@@ -1086,7 +1184,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 12000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 99,
@@ -1097,7 +1196,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 19000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 100,
@@ -1108,7 +1208,8 @@ export const allData = [
         timeLeft: "4",
         image: "medina",
         salary: 13000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 101,
@@ -1119,7 +1220,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 17000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 102,
@@ -1130,7 +1232,8 @@ export const allData = [
         timeLeft: "6",
         image: "vitamedical",
         salary: 28000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 103,
@@ -1141,7 +1244,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 9000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 104,
@@ -1152,7 +1256,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 13000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 105,
@@ -1163,7 +1268,8 @@ export const allData = [
         timeLeft: "15",
         image: "medina",
         salary: 6000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 106,
@@ -1174,7 +1280,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 5000,
-        type: "Інтернатура",
+        type: "Internship",
+        typeShow: "Інтернатура",
     },
     {
         id: 107,
@@ -1185,7 +1292,8 @@ export const allData = [
         timeLeft: "2",
         image: "vitamedical",
         salary: 5000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 108,
@@ -1196,7 +1304,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 12000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 109,
@@ -1207,7 +1316,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 5000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 110,
@@ -1218,7 +1328,8 @@ export const allData = [
         timeLeft: "4",
         image: "medina",
         salary: 23000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 111,
@@ -1229,7 +1340,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 29000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 112,
@@ -1240,7 +1352,8 @@ export const allData = [
         timeLeft: "6",
         image: "vitamedical",
         salary: 28000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 113,
@@ -1251,7 +1364,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 9000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 114,
@@ -1262,7 +1376,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 10000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 115,
@@ -1273,7 +1388,8 @@ export const allData = [
         timeLeft: "15",
         image: "medina",
         salary: 3000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 116,
@@ -1284,7 +1400,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 2000,
-        type: "Інтернатура",
+        type: "Internship",
+        typeShow: "Інтернатура",
     },
     {
         id: 117,
@@ -1295,7 +1412,8 @@ export const allData = [
         timeLeft: "2",
         image: "vitamedical",
         salary: 5000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 118,
@@ -1306,7 +1424,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 12000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 119,
@@ -1317,7 +1436,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 18000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 120,
@@ -1328,7 +1448,8 @@ export const allData = [
         timeLeft: "4",
         image: "medina",
         salary: 13000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 121,
@@ -1339,7 +1460,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 17000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 122,
@@ -1350,7 +1472,8 @@ export const allData = [
         timeLeft: "6",
         image: "vitamedical",
         salary: 28000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 123,
@@ -1361,7 +1484,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 9000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 124,
@@ -1372,7 +1496,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 13000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 125,
@@ -1383,7 +1508,8 @@ export const allData = [
         timeLeft: "15",
         image: "medina",
         salary: 6000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 126,
@@ -1394,7 +1520,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 5000,
-        type: "Інтернатура",
+        type: "Internship",
+        typeShow: "Інтернатура",
     },
     {
         id: 127,
@@ -1405,7 +1532,8 @@ export const allData = [
         timeLeft: "2",
         image: "vitamedical",
         salary: 5000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 128,
@@ -1416,7 +1544,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 1000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 129,
@@ -1427,7 +1556,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 18000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 130,
@@ -1438,7 +1568,8 @@ export const allData = [
         timeLeft: "4",
         image: "medina",
         salary: 23000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 131,
@@ -1449,7 +1580,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 29000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 132,
@@ -1460,7 +1592,8 @@ export const allData = [
         timeLeft: "6",
         image: "vitamedical",
         salary: 28000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 133,
@@ -1471,7 +1604,8 @@ export const allData = [
         timeLeft: "8",
         image: "adonis",
         salary: 9000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 134,
@@ -1482,7 +1616,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 10000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 135,
@@ -1493,7 +1628,8 @@ export const allData = [
         timeLeft: "15",
         image: "medina",
         salary: 3000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 136,
@@ -1504,7 +1640,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 2000,
-        type: "Інтернатура",
+        type: "Internship",
+        typeShow: "Інтернатура",
     },
     {
         id: 137,
@@ -1515,7 +1652,8 @@ export const allData = [
         timeLeft: "2",
         image: "vitamedical",
         salary: 4000,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 138,
@@ -1526,7 +1664,8 @@ export const allData = [
         timeLeft: "1",
         image: "adonis",
         salary: 13000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 139,
@@ -1537,7 +1676,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 8000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 140,
@@ -1548,7 +1688,8 @@ export const allData = [
         timeLeft: "14",
         image: "medina",
         salary: 13000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 141,
@@ -1559,7 +1700,8 @@ export const allData = [
         timeLeft: "6",
         image: "onclinic",
         salary: 19000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 142,
@@ -1570,7 +1712,8 @@ export const allData = [
         timeLeft: "5",
         image: "vitamedical",
         salary: 25000,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 143,
@@ -1581,7 +1724,8 @@ export const allData = [
         timeLeft: "21",
         image: "adonis",
         salary: 9100,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 144,
@@ -1592,7 +1736,8 @@ export const allData = [
         timeLeft: "12",
         image: "dkids",
         salary: 13000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 145,
@@ -1603,7 +1748,8 @@ export const allData = [
         timeLeft: "15",
         image: "medina",
         salary: 6400,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 146,
@@ -1614,7 +1760,8 @@ export const allData = [
         timeLeft: "12",
         image: "onclinic",
         salary: 9900,
-        type: "Інтернатура",
+        type: "Internship",
+        typeShow: "Інтернатура",
     },
     {
         id: 147,
@@ -1625,7 +1772,8 @@ export const allData = [
         timeLeft: "2",
         image: "vitamedical",
         salary: 4300,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
     {
         id: 148,
@@ -1636,7 +1784,8 @@ export const allData = [
         timeLeft: "2",
         image: "adonis",
         salary: 12500,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 149,
@@ -1647,7 +1796,8 @@ export const allData = [
         timeLeft: "22",
         image: "dkids",
         salary: 11000,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 150,
@@ -1658,7 +1808,8 @@ export const allData = [
         timeLeft: "8",
         image: "medina",
         salary: 21600,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 151,
@@ -1669,7 +1820,8 @@ export const allData = [
         timeLeft: "4",
         image: "onclinic",
         salary: 24400,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 152,
@@ -1680,7 +1832,8 @@ export const allData = [
         timeLeft: "5",
         image: "vitamedical",
         salary: 33900,
-        type: "Повний день",
+        type: "FullDay",
+        typeShow: "Повний день",
     },
     {
         id: 153,
@@ -1691,7 +1844,8 @@ export const allData = [
         timeLeft: "3",
         image: "adonis",
         salary: 3500,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 154,
@@ -1702,7 +1856,8 @@ export const allData = [
         timeLeft: "7",
         image: "dkids",
         salary: 8300,
-        type: "Неповний день",
+        type: "PartTime",
+        typeShow: "Неповний день",
     },
     {
         id: 155,
@@ -1713,6 +1868,7 @@ export const allData = [
         timeLeft: "1",
         image: "medina",
         salary: 1500,
-        type: "Волонтерство",
+        type: "Volunteering",
+        typeShow: "Волонтерство",
     },
 ];

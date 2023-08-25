@@ -24,3 +24,9 @@ export interface ModalTypes {
     active: boolean;
     setActive: (value: boolean) => void;
 }
+
+export interface AsideTypeCheckboxProps{
+    checkboxType: string[];
+    handleTypeChange: any;
+    asideTypeValue:string;
+}

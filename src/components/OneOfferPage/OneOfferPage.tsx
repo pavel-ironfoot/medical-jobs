@@ -37,7 +37,7 @@ export const OneOfferPage = () => {
                         <h3>{oneOffer.company}</h3>
                     </div>
                     <div>
-                        <p>{oneOffer.type}</p>
+                        <p>{oneOffer.typeShow}</p>
                         <p>{oneOffer.salary} ₴</p>
                     </div>
                 </main>
