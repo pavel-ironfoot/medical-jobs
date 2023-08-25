@@ -45,7 +45,7 @@ export const KatalogSearch = () => {
             </div>
             <div>
                 <img className="katalog-search__img2" src={city} alt="city" />
-                <input placeholder={t("search1")} onChange={e => cityChange(e)} value={citySearch} type="text" />
+                <input placeholder={t("search2")} onChange={e => cityChange(e)} value={citySearch} type="text" />
             </div>
         </div>
     );
