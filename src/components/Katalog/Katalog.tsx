@@ -17,6 +17,10 @@ export const Katalog = () => {
   const { t, i18n } = useTranslation();
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() => {
     setCurrentPage(1);
   }, [cards.length]);
 

@@ -3,7 +3,6 @@ import { LanguageChange } from "../LanguageChange";
 import { NavLink, useLocation } from "react-router-dom";
 import user from '../../images/user.png';
 import portrait from '../../images/user-portrait.png';
-
 import './Header.scss';
 
 export const Header = () => {

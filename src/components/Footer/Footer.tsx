@@ -10,7 +10,9 @@ export const Footer = () => {
         <footer className='footer'>
             <div className='footer-one'>
                 <div className="footer-one__logo">
-                    <h1>Job Search</h1>
+                    <NavLink to={`/`}>
+                        <h1>Job Search</h1>
+                    </NavLink>
                 </div>
                 <nav className="footer-one__nav__menu">
                     <div>

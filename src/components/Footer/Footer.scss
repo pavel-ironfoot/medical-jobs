@@ -9,6 +9,11 @@
         justify-content: space-between;
 
         .footer-one__logo {
+            a{
+                cursor: pointer;
+                color: #1E1E1E;
+                text-decoration: none;
+            }
             h1 {
                 font-family: 'Source Sans Pro';
                 font-weight: 600;
