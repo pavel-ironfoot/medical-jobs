@@ -1,6 +1,6 @@
 .aside {
     border: 1px solid #E0E4E8;
-    color: rgba(255, 0, 0, 0);
+    color: rgb(0, 0, 0);
     margin-left: 140px;
     margin-top: 60px;
     width: 520px;
@@ -125,7 +125,19 @@
     }
 
     .aside-hr {
-        color: #F7F8FC;
+        border: none;
+        height: 1px;
+        background-color: #E0E4E8;
+    }
+
+    .aside-speciality{
+        margin-top: 10px;
+        p{
+            color: rgba(0, 0, 0, 0.60);
+            font-weight: '400';
+            font-size: '20px';
+            font-family: 'Source Sans Pro';
+        }
     }
 }
 

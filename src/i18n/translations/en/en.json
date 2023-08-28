@@ -9,7 +9,6 @@
     "help":"Help",
     "offers":"Offers",
     "offers1":"offers",
-
     "filters":"Filters",
     "type":"Type",
     "salary":"Salary Range",
@@ -48,5 +47,6 @@
     "errorEmail":"invalid email address",
     "errorNumber":"invalid phone number",
     "fieldsAll":"all fields must be filled",
-    "successfully":"Your data was sent successfully"
+    "successfully":"Your data was sent successfully",
+    "inProgress": "in progress..."
 }

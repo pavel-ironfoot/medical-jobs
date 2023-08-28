@@ -91,7 +91,9 @@ export const Aside = () => {
             </div>
 
             <div className={speciality ? "aside__block hide-block" : "aside__block"}>
-
+                <div className='aside-speciality'>
+                    <p>{t("inProgress")}</p>
+                </div>
             </div>
         </aside>
     );
