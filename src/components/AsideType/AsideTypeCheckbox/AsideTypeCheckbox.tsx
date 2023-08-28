@@ -6,7 +6,7 @@ import { AsideTypeCheckboxProps } from '../../../commons/types-and-interfaces';
 
 export const AsideTypeCheckbox: React.FC<AsideTypeCheckboxProps> = ({ handleTypeChange, checkboxType, asideTypeValue }) => {
     const { t, i18n } = useTranslation();
-    console.log(asideTypeValue)
+    
     return (
         <>
             <FormControlLabel control={<Checkbox

@@ -91,6 +91,7 @@ export const Aside = () => {
             </div>
 
             <div className={speciality ? "aside__block hide-block" : "aside__block"}>
+
             </div>
         </aside>
     );

@@ -2,10 +2,10 @@ import { useState } from 'react';
 import arrowShow from './../../images/Caret_Down.png';
 import arrowHide from './../../images/Caret_Down_MD.png'
 import { useTranslation } from 'react-i18next';
+import { AsideTypeCheckbox } from './AsideTypeCheckbox';
 import { AsideTypeProps } from '../../commons/types-and-interfaces';
 
 import './AsideType.scss';
-import { AsideTypeCheckbox } from './AsideTypeCheckbox';
 
 export const AsideType: React.FC<AsideTypeProps> = ({ setCheckboxType, checkboxType }) => {
     const [type, setType] = useState<boolean>(true);
