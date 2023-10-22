@@ -62,6 +62,7 @@ export const Footer = () => {
                 <p>{t("allrights")}</p>
                 <p>{t("politics")}</p>
                 <p>{t("social")}</p>
+                <p>front-end dev: PAVEL IRONFOOT</p>
             </div>
         </footer>
     );
